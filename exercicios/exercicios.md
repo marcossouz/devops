@@ -655,7 +655,7 @@ $ kubeless function ls
 Para fazer o deploy da função, iremos usar o arquivo de modelo exemplo **test.py** 
 
 ```sh
-$ kubeless function deploy hello --runtime python2.7 --from-file test.py --handler test.hello
+$ kubeless function deploy hello --runtime python3.7 --from-file test.py --handler test.hello
 $ kubectl get functions
 $ kubeless function ls
 ```
